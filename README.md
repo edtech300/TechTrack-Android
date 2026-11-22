@@ -30,30 +30,46 @@ These features represent the planned functionality and have not yet been fully i
 
 ## Development Progress
 
-### Previous Work — Versions 0.1 and 0.2
+### Previous Work — Versions 0.1 through 0.3
 
-- Established the TechTrack application concept.
-- Identified the business problem and target users.
-- Created the GitHub repository and initial README.
-- Published the project outline in the GitHub Wiki.
-- Completed introductory Android development activities through the course learning environment.
-- Installed Android Studio on a Mac for future development.
+- Established the TechTrack application concept and identified the target users.
+- Created the GitHub repository, README, and Wiki documentation.
+- Completed introductory Android development exercises.
+- Installed and configured Android Studio.
+- Updated the project outline and version changelog.
 
-### Current Update — Version 0.3
+### Current Version — v0.4: Initial Application Development
 
-For Project Activity Submission 3, I reviewed the original project outline and updated the documentation to reflect my current progress. I also added a version changelog to the GitHub Wiki and organized the next stages of application development.
+TechTrack has moved beyond the planning stage into application development. I created the Android Studio project using Kotlin and Jetpack Compose and successfully tested it using an Android emulator.
 
-The project is currently in the planning and development preparation stage. My next priority is to begin creating the application interface and implementing basic inventory features.
+The initial application includes a home screen, an equipment entry form, and a basic inventory display. Users can enter device information and add multiple devices to a list.
 
-### Planned Updates — Versions 0.4 through 1.0
+**Completed Features:**
 
-- Create the initial Android application project.
-- Develop the home screen and device entry form.
-- Implement device inventory storage and management.
+- Created the TechTrack Android application.
+- Developed the home screen and inventory section.
+- Added an interactive Add Device button.
+- Created input fields for device name, type, manufacturer, model, and IP address.
+- Implemented a Save Device function.
+- Added basic validation requiring a device name.
+- Implemented temporary in-memory inventory storage.
+- Displayed saved devices on the home screen.
+- Successfully tested the application using Android Emulator API 37.
+- Committed and pushed the application source code to GitHub.
+
+**Current Limitations:**
+
+Device information is currently stored in memory, meaning records may be lost when the application process closes. Permanent storage, editing, deleting, and additional input validation have not yet been implemented.
+
+### Planned Updates — v0.5 through v1.0
+
+- Implement persistent local storage for inventory records.
 - Add editing and deleting functionality.
-- Test the application and correct errors.
-- Upload application code and complete the final documentation.
-
+- Improve input validation and error handling.
+- Refine the user interface.
+- Continue testing and troubleshooting.
+- Prepare the application and documentation for final submission.
+  
 ## Development Timeline
 
 - **Weeks 1–2:** Research, planning, repository setup, and documentation.
@@ -76,6 +92,8 @@ Additional information, including the full project outline and version changelog
 
 ## Current Status
 
-**Version 0.3 — Documentation Updated / Application Development Planned**
+**Version 0.4 — Initial Android Application Developed**
 
-The GitHub repository and project documentation have been established. Application development and testing remain the next major tasks.
+TechTrack currently includes a functioning home screen, device entry form, and temporary equipment inventory. The application has been tested in an Android emulator, and its source code is available in this GitHub repository.
+
+The next development phase will focus on permanent local storage and expanded inventory management functionality.
